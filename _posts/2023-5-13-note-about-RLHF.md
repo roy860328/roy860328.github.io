@@ -7,7 +7,7 @@ title: RLHF
 
 In **InstructGPT/ChatGPT/GPT-4**, they use RLHF to fine-tune the language model. OpenAI said they use RLHF to align human intent. When we unsupervised pre-train language model with , language model objective to maximize the likelihood:
 
-![Untitled](RLHF-Reinforcement%20Learning%20from%20Human%20Feedback%208736a5574ce94a958f262357ee026e05/Untitled.png)
+![_config.yml]({{ site.baseurl }}/images/RLHF-Reinforcement%20Learning%20from%20Human%20Feedback%208736a5574ce94a958f262357ee026e05/Untitled.png)
 
 (GPT-1 paper)
 
@@ -23,13 +23,13 @@ Here is an example from daily life:
 - BLUE realizes that RED is misunderstanding him, so he explains it using different words.
 - This allows them to continue the conversation successfully.
 
-![Untitled](RLHF-Reinforcement%20Learning%20from%20Human%20Feedback%208736a5574ce94a958f262357ee026e05/Untitled%201.png)
+![_config.yml]({{ site.baseurl }}/images/RLHF-Reinforcement%20Learning%20from%20Human%20Feedback%208736a5574ce94a958f262357ee026e05/Untitled%201.png)
 
 What if RED knew about BLUE's problem or intention from the beginning? 
 
 Assuming RED had prior knowledge of BLUE's intent, the conversations between the two parties would go more smoothly. 
 
-![Untitled](RLHF-Reinforcement%20Learning%20from%20Human%20Feedback%208736a5574ce94a958f262357ee026e05/Untitled%202.png)
+![_config.yml]({{ site.baseurl }}/images/RLHF-Reinforcement%20Learning%20from%20Human%20Feedback%208736a5574ce94a958f262357ee026e05/Untitled%202.png)
 
 ## Example 2
 
@@ -42,7 +42,7 @@ For instance
 - RED can example to illustrate a point related to the question.
 - RED can choose to provide a more general response that is not directly related to the question but still provides valuable information to BLUE.
 
-![Untitled](RLHF-Reinforcement%20Learning%20from%20Human%20Feedback%208736a5574ce94a958f262357ee026e05/Untitled%203.png)
+![_config.yml]({{ site.baseurl }}/images/RLHF-Reinforcement%20Learning%20from%20Human%20Feedback%208736a5574ce94a958f262357ee026e05/Untitled%203.png)
 
 # Labeling for  Human intent & Human Preference?
 
@@ -50,4 +50,4 @@ When we engage with a chatbot, we expect it to be wise and knowledgeable about o
 
 In the InstructGPT & Anthropic (Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback) paper, they hired people to label that data. This allowed them to create a more sophisticated training model that could help chatbots learn how to better understand the needs of their users and provide more helpful responses. 
 
-![Untitled](RLHF-Reinforcement%20Learning%20from%20Human%20Feedback%208736a5574ce94a958f262357ee026e05/Untitled%204.png)
+![_config.yml]({{ site.baseurl }}/images/RLHF-Reinforcement%20Learning%20from%20Human%20Feedback%208736a5574ce94a958f262357ee026e05/Untitled%204.png)
