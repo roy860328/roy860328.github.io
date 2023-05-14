@@ -1,15 +1,11 @@
 ---
 layout: post
-title: Anthropic RLHF paper notes
+title: Paper Note: Anthropic RLHF
 ---
-
-Anthropic
 Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback
-
-# Anthropic - Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback
 paper source: [https://arxiv.org/abs/2204.05862](https://arxiv.org/abs/2204.05862)
 
-Thesis Summary
+# Thesis Summary
 To fully complete the RLHF product process, the following steps must be taken:
 
 1. Design the user interface.
@@ -21,6 +17,7 @@ To fully complete the RLHF product process, the following steps must be taken:
 
 This article is very useful for the company's products, so it is important not to overlook any important information.
 
+## Useful content
 - Paper
     - Important Points
         - How to properly collect dataset / pretrain / RLHF PM Policy model, what problems will be encountered, and how to evaluate
