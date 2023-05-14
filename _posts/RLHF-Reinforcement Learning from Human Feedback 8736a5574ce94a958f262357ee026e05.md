@@ -1,8 +1,3 @@
----
-layout: post
-title: RLHF
----
-
 # RLHF-Reinforcement Learning from Human Feedback
 
 In **InstructGPT/ChatGPT/GPT-4**, they use RLHF to fine-tune the language model. OpenAI said they use RLHF to align human intent. When we unsupervised pre-train language model with , language model objective to maximize the likelihood:
