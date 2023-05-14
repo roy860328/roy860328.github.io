@@ -2,6 +2,7 @@
 layout: post
 title: Paper Note: Anthropic RLHF
 ---
+
 Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback
 paper source: [https://arxiv.org/abs/2204.05862](https://arxiv.org/abs/2204.05862)
 
