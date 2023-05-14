@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+I am a Machine Learning Engineer with nearly two years of experience focusing on ML/DL/Data Analysis. I graduated from National Central University with a Master of Science in Computer Science and Information Engineering.
+I am a Machine Learning Engineer with nearly two years of experience focusing on Machine Learning, Deep Learning, and Data Analysis. I graduated from National Central University with a Master of Science in Computer Science and Information Engineering.
+My research interests are focused on Reinforcement Learning and Reinforcement Learning from Human Feedback.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[roy1997860328@gmail.com](mailto:email@domain.com)
