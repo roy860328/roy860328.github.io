@@ -1,9 +1,8 @@
 ---
 layout: post
-title: RLHF
+title: Align Human Intent
 ---
 
-Align Human Intent
 What is Human intent & Human Preference in RLHF?
 
 # Language Model Problem
