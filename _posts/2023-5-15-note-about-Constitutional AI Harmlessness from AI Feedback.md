@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Paper Note - Anthropic Constitutional AI
+title: (Draft) Paper Note - Anthropic Constitutional AI
 ---
 
 Constitutional AI: Harmlessness from AI Feedback
