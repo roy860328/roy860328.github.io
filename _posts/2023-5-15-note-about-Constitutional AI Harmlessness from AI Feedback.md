@@ -27,11 +27,15 @@ Humans only need to define a high-level goal and let the LM reach the goal by it
 
 ![_config.yml]({{ site.baseurl }}/images/Constitutional_AI/Untitled%201.png)
 
+---
+
 Constitutional AI Result
 
 ![_config.yml]({{ site.baseurl }}/images/Constitutional_AI/Untitled%202.png)
 
 ![_config.yml]({{ site.baseurl }}/images/Constitutional_AI/Untitled%203.png)
+
+---
 
 ## Useful content
 
