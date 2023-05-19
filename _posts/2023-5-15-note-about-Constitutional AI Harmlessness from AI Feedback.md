@@ -21,11 +21,17 @@ The pipeline consists of the following steps:
 3. Train the model using this data.
 4. Finally, fine-tune the model using RLHF.
 
-Humans only need to define a high-level goal and let the LM reach the goal by itself..
+Humans only need to define a high-level goal and let the LM reach the goal by itself.
 
 ![_config.yml]({{ site.baseurl }}/images/Constitutional_AI/Untitled.png)
 
 ![_config.yml]({{ site.baseurl }}/images/Constitutional_AI/Untitled%201.png)
+
+Constitutional AI Result
+
+![_config.yml]({{ site.baseurl }}/images/Constitutional_AI/Untitled%202.png)
+
+![_config.yml]({{ site.baseurl }}/images/Constitutional_AI/Untitled%203.png)
 
 ## Useful content
 
@@ -39,6 +45,7 @@ Humans only need to define a high-level goal and let the LM reach the goal by it
             - (1) by literally encoding the training goals in a simple list of natural language instructions or principles,
             - (2) by using chain-of-thought reasoning [Nye et al., 2021, Wei et al., 2022] to make AI decision making explicit during training,
             - (3) by training AI assistants that explain why they are declining to engage with harmful requests.
+    - RL-CAI CoT is similarly harmless but significantly less evasive than both versions of HH RLHF
 - **How (Method)**
     - A series of principles
     - Chain-of-Thought
@@ -62,10 +69,16 @@ Humans only need to define a high-level goal and let the LM reach the goal by it
             - Figure 8 / Figure 9
                 - RL-CAI improve Harmless but reduce Helpfulness.
                 - **RL-CAI models can be over-trained**
+    - Experiment: Classify
+        - Figure 11 (Classify HHH)
+        - Figure 12 (Classify Harmful Behavior (multiple choice))
 - **Other / Problem Need to Solve**
-    - 
+    - critique / revision problem
+        - critiques often provide inaccurate criticism
+        - the first revision often removes most harmful content from the original response, while subsequent revisions make only minor improvements.
 - Q
     - These principles were chosen in a fairly ad hoc and iterative way for research purposes. In the future, we believe such principles should be redeveloped and refined by a larger set of stakeholders, and that they should also be adapted depending on the intended usage and location in which the model may be deployed. Since such a small number of bits of information are involved in these principles, it’s worth studying these bits carefully
+        - Do principles need to be iteratively online?
     - Figure 8
         - Most of company don’t care about Harmless. Can data augmentation skills such as Chain-of-Thought and Principle be used in Helpfulness?
         
