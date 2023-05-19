@@ -19,6 +19,9 @@ To fully complete the RLHF product process, the following steps must be taken:
 
 This article is very useful for the company's products, so it is important not to overlook any important information.
 
+Paper Experiment Result: Trade-off between Helpful and Harmful
+![_config.yml]({{ site.baseurl }}/images/Anthropic_RLHF/Untitled.png)
+
 ## Useful content
 - **Important Points**
     - How to properly collect dataset / pretrain / RLHF PM Policy model, what problems will be encountered, and how to evaluate
